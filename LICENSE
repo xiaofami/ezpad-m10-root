@@ -1,0 +1,47 @@
+MIT License
+
+Copyright (c) 2026 The EZpad M10 Root Project Authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## 第三方内容例外 / Third-Party Content Exception
+
+上述 MIT 许可证**仅适用于本项目自身的原创内容**（本文档、脚本、配置）。
+
+The MIT license above applies **only to the original content of this project**
+(documentation, scripts, configuration).
+
+本仓库 `tools/工具包/` 目录内附带的第三方工具二进制与软件包**不属于**本项目 MIT 授权范围，它们保留各自的原始许可证，包括但不限于：
+
+Third-party tool binaries and packages vendored under `tools/工具包/` are
+**not** covered by this project's MIT license; they retain their own original
+licenses, including but not limited to:
+
+- **Magisk** — GPL-3.0
+- **Zadig** — GPL-3.0
+- **platform-tools (adb / fastboot)** — Google 平台工具条款
+- **spd_dump (ilyakurdyukov/spreadtrum_flash)** — The Unlicense
+- **spd_dump (TomKing062 版) / FDL / exec payload** — 各自上游仓库的条款
+- **unisoc-unlock** — 通过 pip 安装引用，不含其代码本体
+- **avbtool / rsa4096_boot.pem / rsa4096_vbmeta.pem** — 各自上游来源
+
+各工具的完整来源与许可证见 [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md)。
+See [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md) for full sources and licenses of each tool.

@@ -1,0 +1,28 @@
+# Python 虚拟环境（解锁工具运行时生成）
+venv/
+**/venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 运行时生成的 boot 镜像和设备产物
+*.img
+!tools/**/custom_exec_no_verify_3ee8.bin
+
+# 日志与临时文件
+*.log
+*.done
+key.json
+platform-tools.zip
+
+# 分区表等运行时产物
+part.xml
+part*.xml
+probe.xml
+
+# Windows 缩略图/系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
